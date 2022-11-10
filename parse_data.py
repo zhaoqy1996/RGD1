@@ -1,7 +1,7 @@
 import h5py
 import numpy as np
 
-hf = h5py.File('YARP_dataset.h5', 'r')
+hf = h5py.File('RGD1_CHNO.h5', 'r')
 
 # convert number to symbok
 num2element = {1:'H', 6:'C', 7:'N', 8:'O', 9:'F'}
