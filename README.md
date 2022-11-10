@@ -6,8 +6,6 @@ The additional data files are provided ([here](https://figshare.com/articles/dat
 * **Usage of python code**
     - parse\_data.py: This script parses all of the model reactions stored in a HDF5 file which can be freely downloaded from figshare.
 
-    - make\_stat\_plots.py: This script parses the a csv file of reaction features and makes bar plots of different reaction features as following:
-    ![DE](DE_break_dist.pdf)
+    - make\_stat\_plots.py: This script parses the a csv file of reaction features and makes bar plots of different reaction features as DE\_break\_dist.pdf
 
-    - draw\_violin.py: This script parses csv files of reaction features and DFT energies and makes violin plots of the activation energy distribution of different reaction types as
-    ![stat](reaction_stat.pdf)
+    - draw\_violin.py: This script parses csv files of reaction features and DFT energies and makes violin plots of the activation energy distribution of different reaction types as reaction\_stat.pdf
